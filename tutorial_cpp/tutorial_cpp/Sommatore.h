@@ -11,7 +11,6 @@
 
 class Sommatore {
 public:
-    
 	int 	field_a;
 	int 	field_b;
 	int		result;

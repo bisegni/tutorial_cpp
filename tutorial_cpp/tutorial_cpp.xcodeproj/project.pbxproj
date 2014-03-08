@@ -26,6 +26,7 @@
 		32EA098F18CB5E57007006DF /* tutorial_cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tutorial_cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EA099218CB5E57007006DF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		32EA099C18CB5E83007006DF /* Sommatore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sommatore.h; sourceTree = "<group>"; };
+		32EA099E18CB64AB007006DF /* Operator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Operator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			children = (
 				32EA099218CB5E57007006DF /* main.cpp */,
 				32EA099C18CB5E83007006DF /* Sommatore.h */,
+				32EA099E18CB64AB007006DF /* Operator.h */,
 			);
 			path = tutorial_cpp;
 			sourceTree = "<group>";
