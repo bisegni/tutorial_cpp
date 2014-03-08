@@ -27,6 +27,7 @@
 		32EA099218CB5E57007006DF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		32EA099C18CB5E83007006DF /* Sommatore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sommatore.h; sourceTree = "<group>"; };
 		32EA099E18CB64AB007006DF /* Operator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Operator.h; sourceTree = "<group>"; };
+		32EA099F18CB6A14007006DF /* Shapes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shapes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 				32EA099218CB5E57007006DF /* main.cpp */,
 				32EA099C18CB5E83007006DF /* Sommatore.h */,
 				32EA099E18CB64AB007006DF /* Operator.h */,
+				32EA099F18CB6A14007006DF /* Shapes.h */,
 			);
 			path = tutorial_cpp;
 			sourceTree = "<group>";
@@ -225,6 +227,7 @@
 				32EA099A18CB5E57007006DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

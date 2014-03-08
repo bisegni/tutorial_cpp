@@ -9,7 +9,7 @@
 #include <iostream>
 #include "Sommatore.h"
 #include "Operator.h"
-
+#include "Shapes.h"
 
 BinaryOp * exec_operation(BinaryOp *op);
 
