@@ -12,6 +12,7 @@
 #include "Shapes.h"
 #include "TemplatedBinaryOp.h"
 
+
 BinaryOp * exec_operation(BinaryOp *op);
 
 int main(int argc, const char * argv[])
@@ -45,6 +46,15 @@ int main(int argc, const char * argv[])
     w.drawAll();
  
     //-----------------------------------------------------------------------------
+    IntSumOp int_sum(10, 20);
+    std::cout << "The result of IntSumOp is -> " << int_sum.exec() << std::endl;
+
+    DoubleSumOp doub_sum(10.3, 20.5);
+    std::cout << "The result of DoubleSumOp is -> " << doub_sum.exec() << std::endl;
+
+    IntMulOp imt_mul(10, 20);
+    std::cout << "The result of IntMulOp is -> " << imt_mul.exec() << std::endl;
+
     
     return 0;
 }
