@@ -28,6 +28,7 @@
 		32EA099C18CB5E83007006DF /* Sommatore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sommatore.h; sourceTree = "<group>"; };
 		32EA099E18CB64AB007006DF /* Operator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Operator.h; sourceTree = "<group>"; };
 		32EA099F18CB6A14007006DF /* Shapes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shapes.h; sourceTree = "<group>"; };
+		32EA09A018CB6EB5007006DF /* TemplatedBinaryOp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplatedBinaryOp.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 				32EA099C18CB5E83007006DF /* Sommatore.h */,
 				32EA099E18CB64AB007006DF /* Operator.h */,
 				32EA099F18CB6A14007006DF /* Shapes.h */,
+				32EA09A018CB6EB5007006DF /* TemplatedBinaryOp.h */,
 			);
 			path = tutorial_cpp;
 			sourceTree = "<group>";

@@ -10,6 +10,7 @@
 #include "Sommatore.h"
 #include "Operator.h"
 #include "Shapes.h"
+#include "TemplatedBinaryOp.h"
 
 BinaryOp * exec_operation(BinaryOp *op);
 
@@ -42,6 +43,8 @@ int main(int argc, const char * argv[])
     w.addShape(new Circle(10));
     w.addShape(new Ellipse(10, 20));
     w.drawAll();
+ 
+    //-----------------------------------------------------------------------------
     
     return 0;
 }
