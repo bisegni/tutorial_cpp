@@ -35,6 +35,14 @@ int main(int argc, const char * argv[])
     std::cout << "The result is -> " << op->result << std::endl;
     delete(op);
     
+    //-----------------------------------------------------------------------------
+    Window w;
+    
+    w.addShape(new Square(10));
+    w.addShape(new Circle(10));
+    w.addShape(new Ellipse(10, 20));
+    w.drawAll();
+    
     return 0;
 }
 
