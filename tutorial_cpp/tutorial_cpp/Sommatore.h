@@ -9,7 +9,7 @@
 #ifndef __tutorial_cpp__Sommatore__
 #define __tutorial_cpp__Sommatore__
 
-struct Sommatore {
+class Sommatore {
 	int 	field_a;
 	int 	field_b;
 	int		result;
