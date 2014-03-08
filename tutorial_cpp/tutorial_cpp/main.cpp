@@ -8,6 +8,10 @@
 
 #include <iostream>
 #include "Sommatore.h"
+#include "Operator.h"
+
+
+BinaryOp * exec_operation(BinaryOp *op);
 
 int main(int argc, const char * argv[])
 {
@@ -20,6 +24,21 @@ int main(int argc, const char * argv[])
     var_ptr->somma();
     std::cout << "The result is -> " << var_ptr->result << std::endl;
     delete(var_ptr);
+    
+    //-----------------------------------------------------------------------------
+    
+    BinaryOp *op = exec_operation(new SumOp(10,10));
+    std::cout << "The result is -> " << op->result << std::endl;
+    delete(op);
+    
+    op = exec_operation(new MulOp(10,10));
+    std::cout << "The result is -> " << op->result << std::endl;
+    delete(op);
+    
     return 0;
 }
 
+BinaryOp * exec_operation(BinaryOp *op) {
+    op->exec();
+    return op;
+}

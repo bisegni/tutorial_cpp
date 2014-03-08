@@ -11,20 +11,34 @@
 
 class BinaryOp {
 public:
+    virtual ~BinaryOp(){};
+    
 	int 		op_a;
 	int 		op_b;
-    virtual int exec() = 0;
-}
+    int         result;
+    virtual void exec() = 0;
+};
 
 class SumOp : public BinaryOp {
-    int exec() {
-        return op_a + op_b;
+public:
+    SumOp(int a, int b) {
+        op_a = a;
+        op_b = b;
+    }
+    void exec() {
+        result = op_a + op_b;
     }
 };
 
 class MulOp : public BinaryOp {
-    int exec() {
-        return op_a * op_b;
+public:
+    MulOp(int a, int b) {
+        op_a = a;
+        op_b = b;
+    }
+    
+    void exec() {
+        result = op_a * op_b;
     }
 };
 #endif
