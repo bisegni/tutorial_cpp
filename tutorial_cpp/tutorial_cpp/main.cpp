@@ -12,13 +12,12 @@
 int main(int argc, const char * argv[])
 {
 
-    struct Sommatore var;
-    
-    var.field_a = 5;
-    var.field_b = 10;
+    struct Sommatore var(5,10);
     
     var.somma();
     std::cout << "The result is -> " << var.result << std::endl;
+    
+    //now try the object heap allcoation (new, delete)
     return 0;
 }
 
